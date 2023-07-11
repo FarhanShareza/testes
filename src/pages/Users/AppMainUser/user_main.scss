@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    .content-wrapper-main{
+        flex: 1;
+    }
+}
+.header-wrapper{
+    position:fixed;
+    z-index: 99; 
+    width:100%;
+}
+@media screen and (max-width: 992px) {
+    .content-wrapper-main{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

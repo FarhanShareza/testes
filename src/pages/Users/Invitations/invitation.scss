@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nanum+Myeongjo&family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Nanum+Myeongjo&family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Serif:wght@700&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+@media screen and (min-width: 1024px) {
+    .content-wrapper-invitation{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .title-main{
+        .box-timer-main{
+            margin: 0 auto;
+            width: 60%;
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .title-main{
+        .box-timer-main{
+            margin: 0 auto;
+            width: 60%;
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .content-wrapper-invitation{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .content-center-main{
+        .t-28-main{
+            font-size: 18px;
+        }
+        .t-38{
+            font-size: 40px;
+        }
+        .t-28{
+            font-size: 22px;
+        }
+        .t-cover-m{
+            font-size: 14px;
+        }
+        .t-cover{
+            font-size: 18px;
+        }
+        .btn-cover{
+            font-size: 14px;
+        }
+    }
+    .title-main{
+        .text-t-m-s{
+            font-size: 32px;
+        }
+        .text-t-m{
+            font-size: 52px;
+        }
+        .text-t-m-time{
+            font-size: 38px;
+        }
+        .text-t-m-s-sub{
+            font-size: 14px;
+            width: 90%;
+        }
+        .text-close{
+            font-size: 16px;
+        }
+        .text-t-m-close{
+            font-size: 32px;
+        }
+        .text-s-sub-close{
+            font-size: 14px;
+        }
+    }
+    .profile-main{
+        .text-p-name{
+            font-size: 38px;
+        }
+        .text-p-f-name{
+            font-size: 18px;
+        }
+        .text-s{
+            font-size: 14px;
+        }
+    }
+    .text-s-sub{
+        font-size: 16px;
+    }
+    .title-main{
+        .box-timer-main{
+            margin: 0px;
+        }
+        .text-p-f-name{
+            margin: 10px;
+            font-size: 18px;
+        }
+    }
+    .box-timer-main{
+        .box-timer {
+            background-color: #f4eae5;
+            width: 75px;
+            height: 75px;
+            border-radius: 20px;
+            margin: 0;
+        }
+        .box-locations{
+            margin: 25px 0px 25px 0px;
+        }
+    }
+    .content-box-locations{
+        .text-loc-time{
+            font-size: 14px;
+        }
+        .text-s-sub{
+            font-size: 14px;
+        }
+    }
+    .box-form{
+        .box-form-m{
+            padding: 10px;
+            width: 90%;
+        }
+    }
+    .content-box-ucapan-m{
+        .f-name{
+            font-size: 14px;
+        }
+        .f-name-t{
+            font-size: 12px;
+        }
+        .f-date{
+            font-size: 10px;
+        }
+    }
+    .box-timer{
+        .time-style{
+            font-size: 18px;
+        }
+        .text-s-sub{
+            font-size: 14px;
+        }
+
+    }
+}
+
+.content-wrapper-home{
+    // position: static;
+    width: 100%;
+    height: 800px;
+}
+
+.box-home{
+    box-shadow: inset 0px -292px 404px -20px rgba(0, 0, 0, 0.400);
+    background-image: url("../../../assets/images/Inv-04.jpg");
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: static;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.t-28-main{
+    font-family: serif;
+    text-align:center;
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+.t-38{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color: #FFFFFF;
+    font-size: 58px;
+}
+.t-28{
+    font-family: serif;
+    text-align:center;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+.title-main{
+    margin: 50px 0px 50px 0px;
+}
+
+.content-wrapper-pasangan{
+    // position: static;
+    width: 100%;
+    height: 700px;
+}
+
+.box-pasagan{
+    width: 100%;
+    height: 700px;
+    background-color: grey;
+}
+
+.content-center-main{
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.rmv-m-top{
+    margin-top: -25px;
+}
+
+.text-t-m-s-sub{
+    font-family: 'Nanum Myeongjo', serif;
+    text-align:center;
+    color: #7c685d;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text-t-m-s{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color: #ac9081;
+    font-size: 42px;
+}
+
+.text-t-m{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color: #7c685d;
+    font-size: 68px;
+}
+
+.text-t-m-time{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color: #7c685d;
+    font-size: 68px;
+}
+
+.box-content{
+    padding: 25px 0px 50px 0px;
+}
+
+.text-p-name{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color: #a18b8062;
+    font-size: 48px;
+}
+
+.text-p-f-name{
+    font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    color: #7c685d;
+    font-size: 28px;
+}
+
+.text-s{
+    font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    font-weight: 800;
+    color: #7c685d;
+}
+.text-t-m-close{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color: #7c685d;
+    font-size: 48px;
+}
+.text-close{
+    font-family: 'Libre Baskerville', serif;
+    text-align:center;
+    color: #ac988d;
+    letter-spacing: 1px;
+    font-size: 24px;
+
+}
+.text-s-sub{
+    font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    color: #7c685d;
+}
+.text-s-sub-close{
+    font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    color: #7c685d;
+    font-size: 18px;
+}
+.text-loc{
+    font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    color: #7c685d;
+    font-size: 22px;
+}
+.text-loc-time{
+    font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    color: #7c685d;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px inset;
+    color: 10px #a18b8062;
+}
+
+.border-btm{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 2px inset;
+    color: 10px #a18b8062;
+}
+.galery-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile-pic{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic-img{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: rgb(149 157 165 / 50%) 0px 8px 24px;
+}
+
+.profile-main{
+    margin: 50px 0px 50px 0px;
+}
+
+.box-timer-main{
+    margin: 50px 0px 50px 0px;
+}
+.box-timer{
+    background-color: #f4eae5;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin:0;
+}
+
+
+.time-style{
+    padding-top: 25%;
+    font-size: 28px;
+    font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    color: #7c685d;
+}
+
+.content-center{
+    justify-content: center;
+}
+
+.c-margin{
+    margin: 50px 0px 50px 0px;
+}
+
+.box-gallery{
+    width: 100%;
+}
+.box-img-gallery{
+    padding: 0px 5px 5px 0px;
+}
+.img-gallery{
+    width: 100%;
+    height: 350px;
+}
+.rmv-col{
+    padding: 0px;
+}
+.img-gallery-i{
+    width: 30%;
+    margin: 3px;
+}
+
+.brown{
+    background-color: #eddcd2;
+}
+    
+
+.box-locations{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box-locations{
+    padding: 10%;
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: rgb(149 157 165 / 50%) 0px 8px 24px;
+}
+
+.box-form{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-form-m{
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.100);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.content-box-form{
+    padding: 25px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-form-m-t{
+    width: 100%;
+}
+
+.margin-t-100{
+    margin-top: 100px;
+}
+
+.margin-t-b{
+    margin: 25px 0px 25px 0px;
+}
+
+.margin-t{
+    margin-top: 25px;
+}
+
+.btn-loc{
+    font-size: 14px;
+    color: white;
+    margin: 15px 0px 15px 0px;
+    padding: 5px 20px 5px 20px;
+    background-color: #ac988d;
+    border-radius: 10px;
+    border: rgb(255, 255, 255);
+}
+
+.icon-btn-loc{
+    padding-right: 5px;
+}
+
+.f-name{
+    font-size: 16px;
+    font-weight: 700;
+}
+.f-name-t{
+    font-size: 14px;
+}
+.f-date{
+    margin-top: 5px;
+    font-size: 11px;
+    color: rgb(150, 150, 150);
+}
+
+.icon-size{
+    font-size: 12px;
+    margin-right: 3px;
+    padding-bottom: 1px;
+}
+
+.icon-size-right{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 3px;
+    padding-bottom: 1px;
+}
+
+.content-box-ucapan{
+    width: 100%;
+}
+
+.content-box-ucapan-m{
+    border-bottom: 1px solid #ac988d;
+    padding: 20px 0px 20px 0px;
+}
+.t-cover-margin{
+    margin: 20px;
+}
+
+.t-cover-margin-bottom{
+    margin-bottom: 20px;
+}
+
+.t-cover-m{
+    font-family: 'PT Serif', serif;
+    text-align:center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.t-cover{
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    text-align:center;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+.btn-cover{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border-radius: 25px;
+    border: 1px white;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content-cover{
+    box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.459);
+    background-image: url("../../../assets/images/Inv-03.jpg");
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: static;
+}
+
+a{
+    color: white;
+    text-decoration:none
+}
+
+.galery-margin{
+    margin-top: 50px;
+}
+
+.text-s-sub-close-font{
+    font-size: 14px;
+    font-weight: 700;
+}

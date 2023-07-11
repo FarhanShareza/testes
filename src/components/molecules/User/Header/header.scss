@@ -1,0 +1,55 @@
+@media screen and (min-width: 992px) {
+    #my-instagram { display: none; }
+}
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    #my-instagram { display: block; }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+    }
+    .logo-header{
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container, .container-sm {
+        max-width: 100%;
+    }
+    .logo-header{
+        width: 125px;
+    }
+}
+
+.navbar{
+    --bs-navbar-active-color: rgba(150, 150, 150, 0.9);
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+.icon-header-media{
+    width: 50px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.header-bg{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+.navbar-brand{
+    margin: 0px 60px 0px 60px;
+}
+.nav-link{
+    color: #fff;
+    fill: #fff;
+    padding: 25px;
+    font-family: "Bebas Neue",Sans-serif;
+    margin: 0px 15px 0px 15px;
+    font-size: 22px;
+    font-weight: 500;
+}
